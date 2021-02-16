@@ -1,0 +1,35 @@
+{
+  "name": "goit-node",
+  "version": "1.0.0",
+  "description": "Node JS course by GoIT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitaliy-Z/goit-node.git"
+  },
+  "keywords": [
+    "node",
+    "node.js"
+  ],
+  "author": "Vitalii Zvieriev <zverew91@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vitaliy-Z/goit-node/issues"
+  },
+  "homepage": "https://github.com/Vitaliy-Z/goit-node#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "7.0.0",
+    "uuid": "^8.3.2",
+    "yargs": "16.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
